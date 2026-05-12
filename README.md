@@ -37,7 +37,7 @@ The lane detection pipeline generally consists of the following steps:
 
 ## Performance
 
-The algorithms were benchmarked on a **480p video** with a duration of **72 seconds** (**1840 frames**). The tests have been made in Google Colab with an NVIDIA T4 GPU. The following data comes from Nvidia Nsight Compute reports:
+The algorithms were benchmarked on a **480p video** with a duration of **72 seconds** (**1840 frames**). The tests have been made with an NVIDIA 5070 Laptop GPU. The following data comes from Nvidia Nsight Compute reports:
 
 | Implementation Version | Kernels Execution Time (1 frame) | Speedup |
 | :--- | :--- | :--- |
